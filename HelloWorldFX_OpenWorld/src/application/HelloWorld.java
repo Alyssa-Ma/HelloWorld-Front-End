@@ -30,5 +30,16 @@ public class HelloWorld extends Application {
         root.getChildren().add(btn);
         primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.show();
+        
+        
+        HighScoreManager hm = new HighScoreManager();
+        hm.addScore("P1",240);
+        hm.addScore("P2",300);
+        hm.addScore("P3",220);
+        hm.addScore("P4",100);
+        hm.addScore("P5",270);
+
+        System.out.print(hm.getHighscoreString());
     }
+    
 }
