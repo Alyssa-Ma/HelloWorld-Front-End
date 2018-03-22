@@ -1,3 +1,8 @@
+/**
+ * @author Alyssa Ma
+ * 3/22/18
+ * Period 2
+ */
 package application;
  
 import javafx.application.Application;
